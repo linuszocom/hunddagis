@@ -9,4 +9,10 @@ public class HundDagis {
         hundar.add(hund);
     }
 
+    public void ropaUpp() {
+        for (Hund h : hundar) {
+            System.out.println(h.getNamn());
+        }
+    }
+
 }
